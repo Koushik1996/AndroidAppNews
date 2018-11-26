@@ -22,18 +22,5 @@ public class MainActivity extends AppCompatActivity {
     }
     public void myfirstclick(View v)
     {
-        TextView myFirstView;
-        myFirstView = findViewById(R.id.textView);
-        if(flag == 0)
-        {
-            myFirstView.setText(M.getA());
-            flag = 1 ;
-        }
-        else
-        {
-            myFirstView.setText(a);
-            flag = 0;
-        }
-    }
 
 }
